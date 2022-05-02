@@ -11,12 +11,12 @@ C --> D[Youtube]
 C --> E[Stream player]
 C --> F[Facebook]
 ```
-***Jitsi*** --> Live conferencing application 
-***Jibri*** --> Record / Stream Jitsi video conference 
-***Cloudflare*** --> RTMP server 
-***Youtube***--> We can stream into youtube 
-***Facebook*** --> We can stream into Facebook 
-***Stream player***--> We can strem into any custom application , By listening to cloudflare RTMP server,
+* ***Jitsi*** --> Live conferencing application 
+* ***Jibri*** --> Record / Stream Jitsi video conference 
+* ***Cloudflare*** --> RTMP server 
+* ***Youtube***--> We can stream into youtube 
+* ***Facebook*** --> We can stream into Facebook 
+* ***Stream player***--> We can strem into any custom application , By listening to cloudflare RTMP server,
 
 ## FLOW of video Streams 
 
@@ -54,8 +54,8 @@ Custom Stream player should be designed in React / Angular , Cloudflare provides
 
 Documentations :
 
- [React](https://www.npmjs.com/package/@cloudflare/stream-angular)
- [Angular](https://www.npmjs.com/package/@cloudflare/stream-angular)
+ 1. [React](https://www.npmjs.com/package/@cloudflare/stream-angular)
+ 2. [Angular](https://www.npmjs.com/package/@cloudflare/stream-angular)
 
 # Live viewer counts for players
 
@@ -107,7 +107,6 @@ A successful response will return information about the live input.
     "allowedOrigins": ["*.example.com"]
   }
 }
-​​
 ```
 ## View by video id
 
